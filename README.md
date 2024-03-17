@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Notes App
+
+## Overview
+
+Welcome to the README for the Notes App! This app is a powerful note-taking platform built with Shadcn UI for the frontend, Clerk for authentication, Convex for backend services, and Edgestore Editor for data management. It offers both dark and light modes to suit your preferences, providing a seamless and customizable note-taking experience.
+
+## Features
+
+- **Authentication with Clerk**: Users can securely sign up and log in to the platform using Clerk authentication.
+- **Note Management**: Create, read, update, and delete notes effortlessly with the intuitive interface.
+- **Dark and Light Modes**: Enjoy the flexibility to switch between dark and light modes based on your preference or environment.
+- **Backend Services with Convex**: Leveraging Convex, the app handles backend functionalities such as data storage and retrieval with ease.
+- **Data Management with Edgestore Editor**: Utilize the Edgestore Editor for efficient data management and organization.
+
+## Screenshots
+
+| Dark Mode                               | Light Mode                               |
+| --------------------------------------- | ---------------------------------------- |
+| ![Dark Mode](https://github.com/pranavdua02/Notesly/blob/main/notesapp_dark.png) | ![Light Mode](https://github.com/pranavdua02/Notesly/blob/main/notesapp_light.png) |
 
 ## Getting Started
 
-First, run the development server:
+To start using the Notes App, you can sign up or log in using Clerk authentication and start creating and managing your notes in the intuitive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend**: Shadcn UI
+- **Authentication**: Clerk
+- **Backend Services**: Convex
+- **Data Management**: Edgestore Editor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Dark and Light Modes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The app offers both dark and light modes to cater to different preferences and environments. You can easily switch between modes within the app settings.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from the community! If you'd like to contribute to the development of the Notes App, please follow these guidelines:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fork the repository and create a new branch for your feature or bug fix.
+- Make your changes, ensuring to follow the project's coding standards and conventions.
+- Test your changes thoroughly to ensure they work as expected.
+- Submit a pull request with a clear description of your changes and why they are necessary.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Support
 
-## Deploy on Vercel
+If you encounter any issues or have any questions about the Notes App, please don't hesitate to reach out to us. 
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Thank you for using the Notes App! Happy note-taking!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
